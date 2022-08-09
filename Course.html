@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/download.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                 <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About us.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                 </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+   <h1>Our Courses</h1>
+</section>
+
+<!-- course content -->
+<section class="course">
+    <h1>Courses we offer</h1>
+    <p>Lorem ipsum do elit. Quaerat dolorum laborum ad.</p>
+    
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>SOme big paragraph explaining the sub topic
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>degree</h3>
+            <p>SOme big paragraph explaining the sub topic
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>post graduation</h3>
+            <p>SOme big paragraph explaining the sub topic
+            </p>
+        </div>
+    </div>
+</section>
+ <!-- facilities -->
+ <section class="facilities">
+    <h1>Our facilities</h1>
+    <p> something to say?</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/90055.jpg">
+            <h3>world class mcdonalds</h3>
+            <p>best burgers , thats all we serve thanks </p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/90068.jpg">
+            <h3>world class burger king</h3>
+            <p>best burgers , thats all we serve thanks </p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/template_internal.jpg">
+            <h3>world class dominos</h3>
+            <p>best burgers , thats all we serve thanks </p>
+        </div>
+    </div>
+</section>
+
+<!-- footer --> 
+<section class="footer">
+    <h4>About us</h4>
+    <p>Something about us</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+</section>
+
+
+
+
+
+
+    <!-- java script for toggle menu -->
+<script>
+    var navlinks = document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right="0";
+    }
+    function hidemenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
