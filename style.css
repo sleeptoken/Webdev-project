@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/5984.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/trek\ lightbehind1.JPG);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -18,7 +18,7 @@ nav{
     align-items: center;
 }
 nav img{
-    width: 150px;
+    width: 50px;
 }
 .nav-links{
     flex: 1;
@@ -234,50 +234,12 @@ h3{
     margin-bottom: 15px;
     text-align: left;
 }
-/* testimonials */
-.test{
-    width:80%;
-    margin:auto;
-    text-align: center;
-    padding-top: 100px;
-}
-.test-col{
-    flex-basis: 44%;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
-    background: #fff3f3;
-    padding: 25px;
-    cursor: pointer;
-    display: flex;
-}
-.test-col img{
-    height:40px;
-    margin-left: 5px;
-    margin-right:30px;
-    border-radius: 50%;
-}
-.test-col p{
-    padding: 0;
-}
-.test-col h3{
-    margin-top: 15px;
-    text-align:left;
-}
-.test-col .fa{
-    color:#f44336;
-}
-@media(max-width:700px){
-    .test-col img{
-        margin-left: 0px;
-        margin-right: 15px;
-    }
-}
+
 /* call to action */
 .cta{
     margin:100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/qingbao-meng-330658-unsplash.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/trek\ lightbehind2.JPG);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -315,8 +277,7 @@ h3{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/template_internal.jpg);
-    background-position: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/bannermtb.JPG);
     background-size: cover;
     text-align: center;
     color: #fff;
