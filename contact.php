@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dstyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
@@ -14,14 +14,14 @@
 <body>
     <section class="sub-header">
         <nav>
-            <a href="index.html"><img src="images/icon.png"></a>
+            <a href="index.html"><img src="images/icons8-bicycle-64.png"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hidemenu()"></i>
                  <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="About us.html">MOUNTAIN</a></li>
-                    <li><a href="Course.html">ROAD</a></li>
-                    <li><a href="blog.php">HISTORY</a></li>
+                 <li><a href="index.php">HOME</a></li>
+                    <li><a href="mtb.php">MOUNTAIN</a></li>
+                    <li><a href="road.php">ROAD</a></li>
+                    <li><a href="history.php">HISTORY</a></li>
                     <li><a href="contact.php">CONTACT</a></li>
                  </ul>
             </div>
@@ -32,8 +32,8 @@
 <!-- conatct us -->
 <section class="contact-us">
     <div class="row">
-        <div class="contact-col">
-            <h1>Trek</h1>
+    <div class="contact-col">
+            <h1>TREK</h1>
             <div>
                 <i class="fa fa-home"></i>
                 <span>
@@ -122,18 +122,5 @@ if($_POST){
 
 
 
-
-
-
-    <!-- java script for toggle menu -->
-<script>
-    var navlinks = document.getElementById("navLinks");
-    function showmenu(){
-        navLinks.style.right="0";
-    }
-    function hidemenu(){
-        navLinks.style.right="-200px";
-    }
-</script>
 </body>
 </html>
