@@ -16,7 +16,6 @@
         <nav>
             <a href="index.html"><img src="images/icons8-bicycle-64.png"></a>
             <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hidemenu()"></i>
                  <ul>
                  <li><a href="index.php">HOME</a></li>
                     <li><a href="mtb.php">MOUNTAIN</a></li>
@@ -25,7 +24,6 @@
                     <li><a href="contact.php">CONTACT</a></li>
                  </ul>
             </div>
-            <i class="fa fa-bars" onclick="showmenu()"></i>
         </nav>
    <h1>The Mountain Discipline</h1>
 </section>
@@ -78,21 +76,5 @@
     <h4>About us</h4>
     <p>Something about us</p>
 </section>
-
-
-
-
-
-
-    <!-- java script for toggle menu -->
-<script>
-    var navlinks = document.getElementById("navLinks");
-    function showmenu(){
-        navLinks.style.right="0";
-    }
-    function hidemenu(){
-        navLinks.style.right="-200px";
-    }
-</script>
 </body>
 </html>

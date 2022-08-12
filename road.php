@@ -16,7 +16,7 @@
         <nav>
             <a href="index.html"><img src="images/icons8-bicycle-64.png"></a>
             <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hidemenu()"></i>
+             
                  <ul>
                     <li><a href="index.php">HOME</a></li>
                     <li><a href="mtb.php">MOUNTAIN</a></li>
@@ -24,8 +24,7 @@
                     <li><a href="history.php">HISTORY</a></li>
                     <li><a href="contact.php">CONTACT</a></li>
                  </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showmenu()"></i>
+</div>
         </nav>
    <h1>The Road Discipline</h1>
 </section>
@@ -80,11 +79,6 @@
 <section class="footer">
     <h4>About us</h4>
     <p>Something about us</p>
-    <div class="icons">
-        <i class="fa fa-facebook"></i>
-        <i class="fa fa-twitter"></i>
-        <i class="fa fa-instagram"></i>
-    </div>
 </section>
 </body>
 </html>

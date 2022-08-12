@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Document</title>
+    <title>Final Dark mode</title>
     <link rel="stylesheet" href="dstyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -127,7 +127,8 @@
 <!-- footer -->
 <section class="footer">
     <h4>About us</h4>
-    <p>Spreading the SPIRIT of Cycling</p>
+    <p>Spreading the SPIRIT of Cycling<br>
+made by 14 CS&E Keshav Halder</p>
 </section>
 
 </body>
